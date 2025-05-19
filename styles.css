@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+#app {
+    max-width: 600px;
+    margin: auto;
+}
+#crash-canvas {
+    border: 1px solid #000;
+    background-color: #87ceeb;
+}
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+input {
+    padding: 10px;
+    margin: 5px;
+}
+#gift-list {
+    list-style: none;
+    padding: 0;
+}
+#gift-list li {
+    padding: 10px;
+    background-color: #fff;
+    margin: 5px 0;
+    border-radius: 5px;
+}

@@ -1,0 +1,15 @@
+from flask import Flask, jsonify
+import random
+
+app = Flask(__name__)
+
+@app.route('/prices')
+def get_prices():
+    prices = {
+        'Easter Egg': 600 + random.randint(-50, 50),
+        'Jelly Bunny': 300 + random.randint(-20, 20)
+    }
+    return jsonify(prices)
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)

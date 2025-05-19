@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GiftCrash Mini App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>GiftCrash 🎁</h1>
+        <div id="inventory">
+            <h2>Инвентарь</h2>
+            <ul id="gift-list"></ul>
+        </div>
+        <div id="game">
+            <canvas id="crash-canvas" width="400" height="300"></canvas>
+            <p>Коэффициент: <span id="multiplier">1.00x</span></p>
+            <button id="bet-button" disabled>Сделать ставку</button>
+            <button id="cashout-button" disabled>Кэшаут</button>
+        </div>
+        <div id="deposit">
+            <h2>Депозит</h2>
+            <input type="text" id="gift-name" placeholder="Название подарка">
+            <input type="number" id="gift-price" placeholder="Цена (Stars)">
+            <button id="deposit-button">Депозит</button>
+        </div>
+        <div id="withdraw">
+            <h2>Вывод</h2>
+            <input type="text" id="withdraw-name" placeholder="Название подарка">
+            <input type="number" id="withdraw-price" placeholder="Цена (Stars)">
+            <button id="withdraw-button">Вывод</button>
+        </div>
+        <div id="verify">
+            <h2>Проверить честность</h2>
+            <p>Server Seed: <span id="server-seed"></span></p>
+            <p>Client Seed: <input type="text" id="client-seed" value="your_seed"></p>
+            <p>Nonce: <span id="nonce"></span></p>
+            <button id="verify-button">Проверить</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
