@@ -188,9 +188,14 @@ async function loadPage(id) {
     try {
         let md = docCache[id];
         if (md === undefined) {
-            const res = await fetch(`content/${id}.md`);
-            if (!res.ok) throw new Error(res.status);
-            md = await res.text();
+            // Автономный режим: контент встроен в страницу (один HTML-файл).
+            if (window.KB_CONTENT && window.KB_CONTENT[id] != null) {
+                md = window.KB_CONTENT[id];
+            } else {
+                const res = await fetch(`content/${id}.md`);
+                if (!res.ok) throw new Error(res.status);
+                md = await res.text();
+            }
             docCache[id] = md;
         }
         doc.innerHTML = renderMarkdown(md);
@@ -228,8 +233,12 @@ async function buildSearchIndex() {
         try {
             let md = docCache[id];
             if (md === undefined) {
-                const res = await fetch(`content/${id}.md`);
-                if (res.ok) { md = await res.text(); docCache[id] = md; }
+                if (window.KB_CONTENT && window.KB_CONTENT[id] != null) {
+                    md = window.KB_CONTENT[id]; docCache[id] = md;
+                } else {
+                    const res = await fetch(`content/${id}.md`);
+                    if (res.ok) { md = await res.text(); docCache[id] = md; }
+                }
             }
             if (md) searchIndex.push({ id, title: PAGE_INDEX[id].title, block: PAGE_INDEX[id].block, text: md.toLowerCase() });
         } catch (e) { /* пропускаем */ }
