@@ -8,35 +8,35 @@ const NAV = [
     {
         title: "Люди",
         items: [
-            { id: "people/01-o-kompanii",   num: "1",  title: "О компании" },
-            { id: "people/05-dolzhnostnye", num: "★",  title: "Должностные инструкции" },
-            { id: "people/02-hr-i-naem",    num: "9",  title: "HR и найм" },
-            { id: "people/03-kpi",          num: "10", title: "KPI компании" },
-            { id: "people/04-obuchenie",    num: "11", title: "База обучения" },
+            { id: "people/01-o-kompanii",   num: "1", title: "О компании" },
+            { id: "people/05-dolzhnostnye", num: "2", title: "Должностные инструкции" },
+            { id: "people/02-hr-i-naem",    num: "3", title: "HR и найм" },
+            { id: "people/03-kpi",          num: "4", title: "KPI компании" },
+            { id: "people/04-obuchenie",    num: "5", title: "База обучения" },
         ]
     },
     {
         title: "Процессы",
         items: [
-            { id: "processes/01-prodazhi",          num: "2", title: "Продажи" },
-            { id: "processes/02-dispetcherizaciya",  num: "3", title: "Диспетчеризация техники" },
+            { id: "processes/01-prodazhi",          num: "6", title: "Продажи" },
+            { id: "processes/02-dispetcherizaciya",  num: "7", title: "Диспетчеризация техники" },
             { id: "processes/03-buhgalteriya",       num: "8", title: "Бухгалтерия" },
         ]
     },
     {
         title: "Клиенты и техника",
         items: [
-            { id: "assets/01-avtopark",      num: "4", title: "Автопарк" },
-            { id: "assets/02-klienty",       num: "5", title: "Клиенты" },
-            { id: "assets/03-postavshchiki", num: "6", title: "Поставщики техники" },
+            { id: "assets/01-avtopark",      num: "9",  title: "Автопарк" },
+            { id: "assets/02-klienty",       num: "10", title: "Клиенты" },
+            { id: "assets/03-postavshchiki", num: "11", title: "Поставщики техники" },
         ]
     },
     {
         title: "Управление",
         items: [
-            { id: "management/01-finansy",            num: "7",  title: "Финансы" },
-            { id: "management/02-shablony",           num: "12", title: "Стандартные шаблоны" },
-            { id: "management/03-otchety-strategiya", num: "—",  title: "Отчёты, планирование, стратегия" },
+            { id: "management/01-finansy",            num: "12", title: "Финансы" },
+            { id: "management/02-shablony",           num: "13", title: "Стандартные шаблоны" },
+            { id: "management/03-otchety-strategiya", num: "14", title: "Отчёты, планирование, стратегия" },
         ]
     },
 ];

@@ -22,25 +22,25 @@ NAV = [
     ("", [("00-home", "Главная")]),
     ("Люди", [
         ("people/01-o-kompanii", "1. О компании"),
-        ("people/05-dolzhnostnye", "★ Должностные инструкции"),
-        ("people/02-hr-i-naem", "9. HR и найм"),
-        ("people/03-kpi", "10. KPI компании"),
-        ("people/04-obuchenie", "11. База обучения"),
+        ("people/05-dolzhnostnye", "2. Должностные инструкции"),
+        ("people/02-hr-i-naem", "3. HR и найм"),
+        ("people/03-kpi", "4. KPI компании"),
+        ("people/04-obuchenie", "5. База обучения"),
     ]),
     ("Процессы", [
-        ("processes/01-prodazhi", "2. Продажи"),
-        ("processes/02-dispetcherizaciya", "3. Диспетчеризация техники"),
+        ("processes/01-prodazhi", "6. Продажи"),
+        ("processes/02-dispetcherizaciya", "7. Диспетчеризация техники"),
         ("processes/03-buhgalteriya", "8. Бухгалтерия"),
     ]),
     ("Клиенты и техника", [
-        ("assets/01-avtopark", "4. Автопарк"),
-        ("assets/02-klienty", "5. Клиенты"),
-        ("assets/03-postavshchiki", "6. Поставщики техники"),
+        ("assets/01-avtopark", "9. Автопарк"),
+        ("assets/02-klienty", "10. Клиенты"),
+        ("assets/03-postavshchiki", "11. Поставщики техники"),
     ]),
     ("Управление", [
-        ("management/01-finansy", "7. Финансы"),
-        ("management/02-shablony", "12. Стандартные шаблоны"),
-        ("management/03-otchety-strategiya", "Отчёты, планирование, стратегия"),
+        ("management/01-finansy", "12. Финансы"),
+        ("management/02-shablony", "13. Стандартные шаблоны"),
+        ("management/03-otchety-strategiya", "14. Отчёты, планирование, стратегия"),
     ]),
 ]
 
