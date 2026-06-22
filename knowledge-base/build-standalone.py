@@ -22,6 +22,7 @@ NAV = [
     ("", [("00-home", "Главная")]),
     ("Люди", [
         ("people/01-o-kompanii", "1. О компании"),
+        ("people/05-dolzhnostnye", "★ Должностные инструкции"),
         ("people/02-hr-i-naem", "9. HR и найм"),
         ("people/03-kpi", "10. KPI компании"),
         ("people/04-obuchenie", "11. База обучения"),

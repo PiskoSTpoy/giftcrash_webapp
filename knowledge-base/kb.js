@@ -9,6 +9,7 @@ const NAV = [
         title: "Люди",
         items: [
             { id: "people/01-o-kompanii",   num: "1",  title: "О компании" },
+            { id: "people/05-dolzhnostnye", num: "★",  title: "Должностные инструкции" },
             { id: "people/02-hr-i-naem",    num: "9",  title: "HR и найм" },
             { id: "people/03-kpi",          num: "10", title: "KPI компании" },
             { id: "people/04-obuchenie",    num: "11", title: "База обучения" },
