@@ -55,4 +55,13 @@
 - Скрипты продаж и работа с возражениями (см. [Продажи](#processes/01-prodazhi)).
 - Обучение 1С и Excel для отчётности.
 - Видео-инструкции по процессам.
+
+### Презентации и материалы (обучающие)
+| Материал | Описание | Файл |
+|----------|----------|------|
+| **Эксперт продаж: методология и скрипты** | Презентация по методологии продаж Арконы (15 слайдов) | [открыть PDF](https://github.com/PiskoSTpoy/giftcrash_webapp/blob/claude/company-knowledge-base-16mscz/knowledge-base/content/files/arkona-expert-prodazh-metodologiya-i-skripty.pdf) |
+| **Метод «Арконы»: тактики продаж** | Сейлзбук: работа с секретарями и ЛПР (14 слайдов) | [открыть PDF](https://github.com/PiskoSTpoy/giftcrash_webapp/blob/claude/company-knowledge-base-16mscz/knowledge-base/content/files/arkona-taktiki-prodazh-sekretari-i-lpr.pdf) |
+
+> Файлы лежат в репозитории (`content/files/`). Ссылки открывают PDF в браузере (в т.ч. на телефоне). После переноса базы в Notion/Confluence/Битрикс24 презентации прикрепляются туда же.
+
 > **Заполнить.** Список книг, видеоуроков и разбор реальных кейсов компании (выигранные крупные сделки, сложные объекты).

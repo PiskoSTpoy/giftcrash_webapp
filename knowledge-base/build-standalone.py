@@ -29,18 +29,19 @@ NAV = [
     ]),
     ("Процессы", [
         ("processes/01-prodazhi", "6. Продажи"),
-        ("processes/02-dispetcherizaciya", "7. Диспетчеризация техники"),
-        ("processes/03-buhgalteriya", "8. Бухгалтерия"),
+        ("processes/04-marketing", "7. Маркетинг и лидогенерация"),
+        ("processes/02-dispetcherizaciya", "8. Диспетчеризация техники"),
+        ("processes/03-buhgalteriya", "9. Бухгалтерия"),
     ]),
     ("Клиенты и техника", [
-        ("assets/01-avtopark", "9. Автопарк"),
-        ("assets/02-klienty", "10. Клиенты"),
-        ("assets/03-postavshchiki", "11. Поставщики техники"),
+        ("assets/01-avtopark", "10. Автопарк"),
+        ("assets/02-klienty", "11. Клиенты"),
+        ("assets/03-postavshchiki", "12. Поставщики техники"),
     ]),
     ("Управление", [
-        ("management/01-finansy", "12. Финансы"),
-        ("management/02-shablony", "13. Стандартные шаблоны"),
-        ("management/03-otchety-strategiya", "14. Отчёты, планирование, стратегия"),
+        ("management/01-finansy", "13. Финансы"),
+        ("management/02-shablony", "14. Стандартные шаблоны"),
+        ("management/03-otchety-strategiya", "15. Отчёты, планирование, стратегия"),
     ]),
 ]
 

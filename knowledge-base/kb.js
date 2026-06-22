@@ -19,24 +19,25 @@ const NAV = [
         title: "Процессы",
         items: [
             { id: "processes/01-prodazhi",          num: "6", title: "Продажи" },
-            { id: "processes/02-dispetcherizaciya",  num: "7", title: "Диспетчеризация техники" },
-            { id: "processes/03-buhgalteriya",       num: "8", title: "Бухгалтерия" },
+            { id: "processes/04-marketing",          num: "7", title: "Маркетинг и лидогенерация" },
+            { id: "processes/02-dispetcherizaciya",  num: "8", title: "Диспетчеризация техники" },
+            { id: "processes/03-buhgalteriya",       num: "9", title: "Бухгалтерия" },
         ]
     },
     {
         title: "Клиенты и техника",
         items: [
-            { id: "assets/01-avtopark",      num: "9",  title: "Автопарк" },
-            { id: "assets/02-klienty",       num: "10", title: "Клиенты" },
-            { id: "assets/03-postavshchiki", num: "11", title: "Поставщики техники" },
+            { id: "assets/01-avtopark",      num: "10", title: "Автопарк" },
+            { id: "assets/02-klienty",       num: "11", title: "Клиенты" },
+            { id: "assets/03-postavshchiki", num: "12", title: "Поставщики техники" },
         ]
     },
     {
         title: "Управление",
         items: [
-            { id: "management/01-finansy",            num: "12", title: "Финансы" },
-            { id: "management/02-shablony",           num: "13", title: "Стандартные шаблоны" },
-            { id: "management/03-otchety-strategiya", num: "14", title: "Отчёты, планирование, стратегия" },
+            { id: "management/01-finansy",            num: "13", title: "Финансы" },
+            { id: "management/02-shablony",           num: "14", title: "Стандартные шаблоны" },
+            { id: "management/03-otchety-strategiya", num: "15", title: "Отчёты, планирование, стратегия" },
         ]
     },
 ];
