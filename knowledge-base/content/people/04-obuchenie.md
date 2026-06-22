@@ -62,6 +62,8 @@
 | **Эксперт продаж: методология и скрипты** | Презентация по методологии продаж Арконы (15 слайдов) | [открыть PDF](https://github.com/PiskoSTpoy/giftcrash_webapp/blob/claude/company-knowledge-base-16mscz/knowledge-base/content/files/arkona-expert-prodazh-metodologiya-i-skripty.pdf) |
 | **Метод «Арконы»: тактики продаж** | Сейлзбук: работа с секретарями и ЛПР (14 слайдов) | [открыть PDF](https://github.com/PiskoSTpoy/giftcrash_webapp/blob/claude/company-knowledge-base-16mscz/knowledge-base/content/files/arkona-taktiki-prodazh-sekretari-i-lpr.pdf) |
 
+**Папка с материалами обучения:** [Яндекс.Диск](https://disk.yandex.ru/d/WLaN0la4jnC4bw) — общая папка с обучающими материалами компании.
+
 > Файлы лежат в репозитории (`content/files/`). Ссылки открывают PDF в браузере (в т.ч. на телефоне). После переноса базы в Notion/Confluence/Битрикс24 презентации прикрепляются туда же.
 
 > **Заполнить.** Список книг, видеоуроков и разбор реальных кейсов компании (выигранные крупные сделки, сложные объекты).
