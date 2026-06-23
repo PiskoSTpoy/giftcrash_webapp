@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>База знаний — Аркона</title>
+    <link rel="stylesheet" href="kb.css">
+</head>
+<body>
+    <header id="topbar">
+        <button id="menu-toggle" aria-label="Меню">☰</button>
+        <a class="brand" href="#home">
+            <span class="logo">АРКОНА</span>
+            <span class="brand-sub">База знаний</span>
+        </a>
+        <div class="search-box">
+            <input type="search" id="search" placeholder="Поиск по базе знаний…" autocomplete="off">
+            <ul id="search-results"></ul>
+        </div>
+    </header>
+
+    <div id="layout">
+        <nav id="sidebar"></nav>
+        <main id="content">
+            <article id="doc">Загрузка…</article>
+            <footer id="doc-footer"></footer>
+        </main>
+    </div>
+
+    <script src="kb.js"></script>
+</body>
+</html>
