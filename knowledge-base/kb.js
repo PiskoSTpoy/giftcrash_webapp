@@ -40,6 +40,13 @@ const NAV = [
             { id: "management/03-otchety-strategiya", num: "15", title: "Отчёты, планирование, стратегия" },
         ]
     },
+    {
+        title: "Справочники",
+        items: [
+            { id: "reference/01-price",         num: "16", title: "Прайс-лист" },
+            { id: "reference/02-podryadchiki",  num: "17", title: "Реестр подрядчиков" },
+        ]
+    },
 ];
 
 const HOME = { id: "00-home", title: "Главная" };

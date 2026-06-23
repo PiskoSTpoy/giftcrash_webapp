@@ -43,6 +43,10 @@ NAV = [
         ("management/02-shablony", "14. Стандартные шаблоны"),
         ("management/03-otchety-strategiya", "15. Отчёты, планирование, стратегия"),
     ]),
+    ("Справочники", [
+        ("reference/01-price", "16. Прайс-лист"),
+        ("reference/02-podryadchiki", "17. Реестр подрядчиков"),
+    ]),
 ]
 
 
